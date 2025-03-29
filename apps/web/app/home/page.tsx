@@ -1,6 +1,7 @@
 import { PageBody, PageHeader } from '@kit/ui/page';
 
 import { DashboardDemo } from '~/home/_components/dashboard-demo';
+import Demo from "~/home/_components/demo-customers";
 
 export default function HomePage() {
   return (
@@ -8,7 +9,8 @@ export default function HomePage() {
       <PageHeader description={'Your SaaS at a glance'} />
 
       <PageBody>
-        <DashboardDemo />
+        <Demo></Demo>
+        {/*<DashboardDemo />*/}
       </PageBody>
     </>
   );
