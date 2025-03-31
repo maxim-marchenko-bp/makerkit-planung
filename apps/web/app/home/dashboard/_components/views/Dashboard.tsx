@@ -3,9 +3,9 @@ import React from 'react';
 import { BarChart, Users, FileText, Settings, ChevronRight } from 'lucide-react';
 import { Button } from "@kit/ui/button";
 
-interface DashboardProps {
-    onOpenFileUpload: () => void;
-}
+// interface DashboardProps {
+//     onOpenFileUpload: () => void;
+// }
 
 export function Dashboard() {
     // const onOpenFileUpload = () => {console.log('open file upload')};
